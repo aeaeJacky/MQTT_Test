@@ -14,9 +14,9 @@ const char* SubscribeToHum = "office/catHouse2/humidity"; //For publish humidity
 //const char* SubscribeToPot = "esp/1/pot";
 
 // WiFi & MQTT Server
-const char* ssid = "Warehouse";
-const char* password = "3E1E7771A8";
-const char* mqtt_server = "192.168.1.141";
+const char* ssid = "XXX";
+const char* password = "XXX";
+const char* mqtt_server = "192.168.XXX.XXX";
 
 WiFiClient catHouseClient;
 PubSubClient pubClient(catHouseClient);
